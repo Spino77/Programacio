@@ -13,7 +13,9 @@ public class stigidsert {
         int num3 = (num2 / 10); /*segon*/
         int num4 = num2 - (num3 * 10); /*tercer*/
 
-        System.out.println(num4 + "" + num3 + "" + num1);
+        int f = (num4 * 100) + (num3 * 10) + num1;
+
+        System.out.println(f);
 
     }
 }
