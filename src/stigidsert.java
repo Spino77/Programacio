@@ -8,12 +8,12 @@ public class stigidsert {
 
         int num = sc.nextInt();
 
-        int num1 = num / 100;
-        int num2 = num - (num1 * 100);
-        int num3 = num2 / 10;
+        int num1 = num / 100; /*primer*/
+        int num2 = (num - (num1 * 100));
+        int num3 = (num2 / 10); /*segon*/
+        int num4 = num2 - (num3 * 10); /*tercer*/
 
-
-        System.out.println(num1 + "" + num2 + "" + num3);
+        System.out.println(num4 + "" + num3 + "" + num1);
 
     }
 }
