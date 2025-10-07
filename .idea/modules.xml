@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Operadors aritmetics i comparadors logics/Operadors aritmetics i comparadors logics.iml" filepath="$PROJECT_DIR$/Operadors aritmetics i comparadors logics/Operadors aritmetics i comparadors logics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Operadors logics/Operadors logics.iml" filepath="$PROJECT_DIR$/Operadors logics/Operadors logics.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programacio.iml" filepath="$PROJECT_DIR$/Programacio.iml" />
     </modules>
   </component>
