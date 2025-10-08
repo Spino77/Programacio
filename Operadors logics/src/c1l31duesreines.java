@@ -16,7 +16,19 @@ public class c1l31duesreines {
 
         boolean vh = hor || ver;
 
-        boolean di = (x1 - x2) == (y1 - y2);
+        int dix = x1 - x2;
+
+        if (dix < 0) {
+            dix = x2 - x1;
+        }
+
+        int div = y1 - y2;
+
+        if (div < 0) {
+            div = y2 - y1;
+        }
+
+        boolean di = dix == div;
 
         boolean fin = vh || di;
 
