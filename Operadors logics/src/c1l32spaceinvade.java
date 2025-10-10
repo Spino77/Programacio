@@ -21,7 +21,6 @@ public class c1l32spaceinvade {
 
         int x4 = x3 + W3;
         int y4 = y3 + H3;
-
         boolean ayuda = (x3 >= x2) || (y3 >= y2) || (x1 >= x4) || (y1 >= y4);
 
         System.out.println(!ayuda);
