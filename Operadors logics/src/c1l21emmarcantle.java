@@ -15,16 +15,14 @@ public class c1l21emmarcantle {
         int x4 = sc.nextInt();
         int y4 = sc.nextInt();
 
-        int w1 = x1 + x2;
-        int w2 = x3 + x4;
-        int h1 = y1 + y2;
-        int h2 = y3 + y4;
+        int w1 = x1 - x2;
+        int w2 = x3 - x4;
+        int h1 = y1 - y2;
+        int h2 = y3 - y4;
 
         boolean mayoroigual =  (w2 >= w1) && (h2 >= h1);
-        boolean proporcionalx = (w2 % w1) <= 1;
-        boolean proporcionaly = (h2 % h1) <= 1;
 
-        boolean proporcional = proporcionalx && proporcionaly;
+        boolean proporcional = (w2 - w1) == (h2 - h1);
 
         boolean ayuda = mayoroigual && proporcional;
 
