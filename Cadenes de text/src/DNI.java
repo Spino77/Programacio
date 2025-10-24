@@ -18,7 +18,11 @@ public class DNI {
 
         char lletra = taula.charAt(modul);
 
-        System.out.println(lletra);
+        char lletraoriginal = DNI.charAt(8);
+
+        boolean resposta = lletra == lletraoriginal;
+
+        System.out.println(resposta);
 
 
     }
