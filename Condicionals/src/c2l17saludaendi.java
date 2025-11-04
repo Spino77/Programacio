@@ -9,25 +9,25 @@ public class c2l17saludaendi {
 
         String I = sc.nextLine();
 
-        if (I == "French") {
+        if (I.equals("French")) {
             System.out.println("Bonjour");
-        } else if (I == "Spanish") {
+        } else if (I.equals("Spanish")) {
             System.out.println("Hola");
-        } else if (I == "Russian") {
+        } else if (I.equals("Russian")) {
             System.out.println("Zdravstvuyte");
-        } else if (I == "Chinese") {
+        } else if (I.equals("Chinese")) {
             System.out.println("Nin hao");
-        } else if (I == "Japanese") {
+        } else if (I.equals("Japanese")) {
             System.out.println("Konnichiwa");
-        } else if (I == "German") {
+        } else if (I.equals("German")) {
             System.out.println("Guten Tag");
-        } else if (I == "Portuguese") {
+        } else if (I.equals("Portuguese")) {
             System.out.println("Ola");
-        } else if (I == "Arabic") {
+        } else if (I.equals("Arabic")) {
             System.out.println("Asalaam alaikum");
-        } else if (I == "Hindi") {
+        } else if (I.equals("Hindi")) {
             System.out.println("Namaste");
-        } else if (I == "Romanian") {
+        } else if (I.equals("Romanian")) {
             System.out.println("Buna ziua");
         } else {
             System.out.println("No conec el teu idioma, com es diu hola?");

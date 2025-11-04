@@ -16,14 +16,12 @@ public class c1l19sobrenous {
         if (R == 24) {
             int R2 = (0);
             int O2 = (N + R2) / 24;
-            System.out.print(O2);
-            System.out.print(" ");
-            System.out.print(R2);
+            System.out.print(O2 + " " + R2);
+
         } else {
             int O = (N + R) / 24;
-            System.out.print(O);
-            System.out.print(" ");
-            System.out.print(R);
+            System.out.print(O + " " + R);
+
         }
     }
 }
