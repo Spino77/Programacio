@@ -34,11 +34,5 @@ public class c2l17saludaendi {
             String IN = sc.nextLine();
             System.out.println(IN);
         }
-        {
-
-        }
-
-
-
     }
 }
