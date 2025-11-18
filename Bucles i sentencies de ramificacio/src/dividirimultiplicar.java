@@ -6,9 +6,23 @@ public class dividirimultiplicar {
         Scanner sc = new Scanner(System.in);
         sc.useLocale(Locale.ENGLISH);
 
-        int N = sc.nextInt();
-        int M = sc.nextInt();
+        float N = sc.nextFloat();
+        float M = sc.nextFloat();
 
+        float NS = N;
+        float C = N;
+
+        while (C <= M) {
+            System.out.print(N);
+
+            if (NS % 2 == 0) {
+                NS = NS / (NS - 1);
+            } else if (NS % 2 != 0) {
+                NS = NS * (NS + 1);
+            }
+
+            C += 1;
+        }
 
 
     }

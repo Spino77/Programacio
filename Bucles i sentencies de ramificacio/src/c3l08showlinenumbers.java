@@ -10,7 +10,11 @@ public class c3l08showlinenumbers {
         int num = 1;
 
         while (!frase.equals("END")) {
-            System.out.println(" " + num + " | " + frase);
+            if (num < 10) {
+                System.out.println(" " + num + " | " + frase);
+            } else {
+                System.out.println(num + " | " + frase);
+            }
             frase = sc.nextLine();
             num += 1;
         }
