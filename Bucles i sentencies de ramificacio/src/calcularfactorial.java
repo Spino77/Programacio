@@ -8,12 +8,16 @@ public class calcularfactorial {
 
         int N = sc.nextInt();
         int N2 = N - 1;
-        int F = 1;
+        int F = N;
 
-        while (N2 != 0) {
-            F = F + (N * N2);
-            N2 -= 1;
+        if (N != 0) {
+            while (N2 != 0) {
+                F = F * N2;
+                N2 -= 1;
+            }
+            System.out.println(F);
+        } else if (N == 0) {
+            System.out.println("1");
         }
-        System.out.println(F);
     }
 }
