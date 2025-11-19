@@ -9,21 +9,20 @@ public class dividirimultiplicar {
         float N = sc.nextFloat();
         float M = sc.nextFloat();
 
-        float NS = N;
-        float C = N;
+        float count = N;
+        float NA = N;
 
-        while (C <= M) {
-            System.out.print(N);
+        while (count <= M) {
+            NA += 1;
 
-            if (NS % 2 == 0) {
-                NS = NS / (NS - 1);
-            } else if (NS % 2 != 0) {
-                NS = NS * (NS + 1);
+            System.out.print(N + " ");
+
+            if ((NA % 2) == 0) {
+                N = N / NA;
+            } else if ((NA % 2 != 0)) {
+                N = N * NA;
             }
-
-            C += 1;
+            count += 1;
         }
-
-
     }
 }
