@@ -7,8 +7,13 @@ public class sucesionesdefibona {
         sc.useLocale(Locale.ENGLISH);
 
         int Quantitat = sc.nextInt();
+        int N = sc.nextInt();
+
 
         while (Quantitat != 0) {
+            while (N != -1) {
+
+            }
 
 
 
