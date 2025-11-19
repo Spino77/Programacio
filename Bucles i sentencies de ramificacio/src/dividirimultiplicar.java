@@ -17,10 +17,12 @@ public class dividirimultiplicar {
 
             System.out.print(N + " ");
 
-            if ((NA % 2) == 0) {
-                N = N / NA;
-            } else if ((NA % 2 != 0)) {
-                N = N * NA;
+            if (NA != 0) {
+                if ((NA % 2) == 0) {
+                    N = N / NA;
+                } else if ((NA % 2 != 0)) {
+                    N = N * NA;
+                }
             }
             count += 1;
         }
