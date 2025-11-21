@@ -9,19 +9,16 @@ public class posiciovalormespetit {
         int Nt = sc.nextInt();
         int Ni = sc.nextInt();
         int P = 1;
-        int Pf = 1;
         int Np = Ni;
 
         for (int i = 1; i < Nt; i++) {
-            if (Ni <= Np) {
-                Np = Ni;
-                Pf = P;
-            }
-
-            P += 1;
             Ni = sc.nextInt();
+            if (Ni < Np) {
+                Np = Ni;
+                P = i+1;
+            }
         }
 
-        System.out.println("El nombre més petit és el " + Np + " i es troba a la posició " + Pf);
+        System.out.println("El nombre més petit és el " + Np + " i es troba a la posició " + P);
     }
 }
