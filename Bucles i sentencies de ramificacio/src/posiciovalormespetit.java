@@ -9,10 +9,10 @@ public class posiciovalormespetit {
         int Nt = sc.nextInt();
         int Ni = sc.nextInt();
         int P = 1;
-        int Pf = 0;
+        int Pf = 1;
         int Np = Ni;
 
-        for (int i = 0; i < Nt; i++) {
+        for (int i = 1; i < Nt; i++) {
             if (Ni <= Np) {
                 Np = Ni;
                 Pf = P;
