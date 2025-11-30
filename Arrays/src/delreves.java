@@ -1,28 +1,23 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class igualesalultimo {
+public class delreves {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         sc.useLocale(Locale.ENGLISH);
 
         int N = sc.nextInt();
         int array[] = new int[N];
-        int count = 0;
 
         for (int i = 0; i < N; i++) {
             array[i] = sc.nextInt();
         }
 
-        int LN = array[N - 1];
-
-        for (int i = 0; i < N - 1; i++) {
-            if (array[i] == LN) {
-                count += 1;
-            }
+        for (int i = N; i > 0; i--) {
+            System.out.print(array[i - 1] + " ");
         }
 
-        System.out.println(count);
+
 
     }
 }
