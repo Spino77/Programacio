@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/Bucles i sentencies de ramificacio/Bucles i sentencies de ramificacio.iml" filepath="$PROJECT_DIR$/Bucles i sentencies de ramificacio/Bucles i sentencies de ramificacio.iml" />
       <module fileurl="file://$PROJECT_DIR$/Cadenes de text/Cadenes de text.iml" filepath="$PROJECT_DIR$/Cadenes de text/Cadenes de text.iml" />
       <module fileurl="file://$PROJECT_DIR$/Castings entre literals/Castings entre literals.iml" filepath="$PROJECT_DIR$/Castings entre literals/Castings entre literals.iml" />
       <module fileurl="file://$PROJECT_DIR$/Condicionals/Condicionals.iml" filepath="$PROJECT_DIR$/Condicionals/Condicionals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Matrius/Matrius.iml" filepath="$PROJECT_DIR$/Matrius/Matrius.iml" />
       <module fileurl="file://$PROJECT_DIR$/Operadors aritmetics i comparadors logics/Operadors aritmetics i comparadors logics.iml" filepath="$PROJECT_DIR$/Operadors aritmetics i comparadors logics/Operadors aritmetics i comparadors logics.iml" />
       <module fileurl="file://$PROJECT_DIR$/Operadors logics/Operadors logics.iml" filepath="$PROJECT_DIR$/Operadors logics/Operadors logics.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programacio.iml" filepath="$PROJECT_DIR$/Programacio.iml" />
