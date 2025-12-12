@@ -16,9 +16,21 @@ public class cerosdebajodelad {
         }
 
         boolean yes = false;
+        int counter = 0;
 
-
-
-
+        for (int i = 0; i < N; i++) {
+            for (int j = 0; j < counter; j++) {
+                if (matriu[i][j] == 0) {
+                    yes = true;
+                } else {
+                    System.out.println("NO");
+                    return;
+                }
+            }
+            counter += 1;
+        }
+        if (yes) {
+            System.out.println("SI");
+        }
     }
 }
