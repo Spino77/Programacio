@@ -18,7 +18,7 @@ public class matrixlowerupper {
 
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N; j++) {
-                while () {
+                while (true) {
                     int cosa = sc.nextInt();
                     int length = matriu[i][j].length();
 
