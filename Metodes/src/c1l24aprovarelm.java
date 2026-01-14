@@ -7,8 +7,6 @@ public class c1l24aprovarelm {
         sc.useLocale(Locale.ENGLISH);
 
         int S = 3;
-
-
         int[] array1 = new int[S];
         int[] array2 = new int[S];
         int[] array3 = new int[S];
@@ -16,21 +14,17 @@ public class c1l24aprovarelm {
         for (int i = 0; i < S; i++) {
            array1[i] = sc.nextInt();
         }
-
         for (int i = 0; i < S; i++) {
             array2[i] = sc.nextInt();
         }
-
         for (int i = 0; i < S; i++) {
             array3[i] = sc.nextInt();
         }
 
         //UF 1
         //(75% i 4) o (50% i 5) o (>7)
-
         //UF 2
         //(75% i 4) o (100%) o (50% i 5)
-
         //UF 3
         // (100% i 5)
 
@@ -45,13 +39,11 @@ public class c1l24aprovarelm {
                 calcul_aprovat(0, 7,array1)) {
             UF1 = true;
         }
-
         if (calcul_aprovat(75, 4, array2) ||
                 calcul_aprovat(100, 0, array2) ||
                 calcul_aprovat(50, 5, array2)) {
             UF2 = true;
         }
-
         if (calcul_aprovat(100, 5, array3)) {
             UF3 = true;
         }
@@ -61,28 +53,13 @@ public class c1l24aprovarelm {
         } else {
             System.out.println(false);
         }
-
-
     }
 
     public static boolean calcul_aprovat(int pe, int min, int[] notes) {
-
         if ((notes[1] / (float) notes[0] >= (float)pe / 100) && notes[2] >= min) {
             return true;
         } else {
             return false;
         }
-
     }
-
 }
-
-
-
-
-
-
-
-
-
-
