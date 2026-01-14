@@ -36,7 +36,6 @@ public class c1l24aprovarelm {
 
         //Comprovacio calculs (var percentatge i nota min)
 
-
         boolean UF1 = false;
         boolean UF2 = false;
         boolean UF3 = false;
