@@ -3,7 +3,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class cosa_cosa {
-    static void main() throws IOException {
+    public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
         sc.useLocale(Locale.ENGLISH);
 
