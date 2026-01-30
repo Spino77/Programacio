@@ -1,3 +1,5 @@
+package holapersona;
+
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -12,12 +14,12 @@ public class holapersona {
         Scanner scanner = new Scanner(System.in);
         scanner.useLocale(Locale.ENGLISH);
 
-        Persona unaPersona = new Persona();
-        unaPersona.nom = scanner.next();
-        unaPersona.saludar();
+        //persona.Persona unaPersona = new persona.Persona();
+        //unaPersona.nom = scanner.next();
+        //unaPersona.saludar();
 
-        Persona unaAltraPersona = new Persona();
-        unaAltraPersona.nom = scanner.next();
-        unaAltraPersona.saludar();
+        //persona.Persona unaAltraPersona = new persona.Persona();
+        //unaAltraPersona.nom = scanner.next();
+        //unaAltraPersona.saludar();
     }
 }
