@@ -13,7 +13,7 @@ public class dividedbyzeroexcept {
         }
         catch (ArithmeticException e) {
             if (e.getMessage().contains("/ by zero")) {
-                throw
+                System.out.println("no funciona tonto");
             }
         }
 
